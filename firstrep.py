@@ -5,3 +5,5 @@ for i in li:
     if a>1:
         print(i)
         break
+else:
+    print("unique")
