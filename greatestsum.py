@@ -1,5 +1,6 @@
 su=int(input())
 li=list(map(int,input().split()))
+li=sorted(li)
 l1=li[::-1]
 if sum(li)==0:
   print(0)
